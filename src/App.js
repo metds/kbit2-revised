@@ -6,10 +6,10 @@ import InputForm from "./components/InputForm";
 import ResultsOutput from "./components/ResultsOutput";
 
 function App() {
-  const [age, setAge] = useState("18");
-  const [verbalKnowledge, setVerbalKnowledge] = useState("25");
-  const [verbalRiddles, setVerbalRiddles] = useState("23");
-  const [nonverbalRaw, setNonverbalRaw] = useState("32");
+  const [age, setAge] = useState("");
+  const [verbalKnowledge, setVerbalKnowledge] = useState("");
+  const [verbalRiddles, setVerbalRiddles] = useState("");
+  const [nonverbalRaw, setNonverbalRaw] = useState("");
 
   return (
     <div>
