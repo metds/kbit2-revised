@@ -22,7 +22,7 @@ function Header() {
           <a href="https://www.nia.nih.gov/research/abc-ds">
             <img
               className={classes.logo}
-              src="kbit2r/logo-cdp-ds.svg"
+              src="kbit2-revised/logo-cdp-ds.svg"
               alt="logo"
             />
           </a>
