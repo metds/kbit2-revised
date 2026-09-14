@@ -58,12 +58,12 @@ function InputForm({
             type="number"
             required
             min={0}
-            max={108 - Number(verbalRiddles)}
+            max={105 - Number(verbalRiddles)}
             value={verbalKnowledge}
             onChange={createRangeValidator(
               setVerbalKnowledge,
               0,
-              () => 108 - Number(verbalRiddles),
+              () => 105 - Number(verbalRiddles),
             )}
             className={classes.input}
           />
@@ -77,19 +77,19 @@ function InputForm({
             type="number"
             required
             min={0}
-            max={108 - Number(verbalKnowledge)}
+            max={105 - Number(verbalKnowledge)}
             value={verbalRiddles}
             onChange={createRangeValidator(
               setVerbalRiddles,
               0,
-              () => 108 - Number(verbalKnowledge),
+              () => 105 - Number(verbalKnowledge),
             )}
             className={classes.input}
           />
         </div>
         <div className={classes.groupTotal}>
           Verbal Total: <b>{Number(verbalKnowledge) + Number(verbalRiddles)}</b>{" "}
-          / 108
+          / 105
         </div>
       </fieldset>
 
@@ -104,9 +104,9 @@ function InputForm({
             type="number"
             required
             min={0}
-            max={46}
+            max={50}
             value={nonverbalRaw}
-            onChange={createRangeValidator(setNonverbalRaw, 0, 46)}
+            onChange={createRangeValidator(setNonverbalRaw, 0, 50)}
             className={classes.input}
           />
         </div>
