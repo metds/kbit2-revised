@@ -22,6 +22,8 @@ function InputForm({
     };
   };
 
+  const verbalTotal = Number(verbalKnowledge) + Number(verbalRiddles);
+
   return (
     <div className={classes.content}>
       <h3 className={classes.sidePanelTitle}>
@@ -40,7 +42,6 @@ function InputForm({
             min={18}
             max={25}
             required
-            value={age}
             onChange={createRangeValidator(setAge, 18, 25)}
             className={classes.input}
           />
@@ -59,7 +60,6 @@ function InputForm({
             required
             min={0}
             max={105 - Number(verbalRiddles)}
-            value={verbalKnowledge}
             onChange={createRangeValidator(
               setVerbalKnowledge,
               0,
@@ -78,7 +78,6 @@ function InputForm({
             required
             min={0}
             max={105 - Number(verbalKnowledge)}
-            value={verbalRiddles}
             onChange={createRangeValidator(
               setVerbalRiddles,
               0,
@@ -87,10 +86,13 @@ function InputForm({
             className={classes.input}
           />
         </div>
-        <div className={classes.groupTotal}>
-          Verbal Total: <b>{Number(verbalKnowledge) + Number(verbalRiddles)}</b>{" "}
-          / 105
-        </div>
+        {(verbalKnowledge !== "") & (verbalRiddles !== "") ? (
+          <div className={classes.groupTotal}>
+            Verbal Total: <b>{verbalTotal}</b> / 105
+          </div>
+        ) : (
+          <div></div>
+        )}
       </fieldset>
 
       <fieldset className={classes.formGroup}>
@@ -105,7 +107,6 @@ function InputForm({
             required
             min={0}
             max={50}
-            value={nonverbalRaw}
             onChange={createRangeValidator(setNonverbalRaw, 0, 50)}
             className={classes.input}
           />
