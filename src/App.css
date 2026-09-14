@@ -1,0 +1,13 @@
+/* App.module.css */
+.container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (max-width: 960px) {
+  .container {
+    display: block;
+  }
+}

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
+
+.rubikDirtRegular {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 4em;
+}
+
+.content {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0rem;
+
+  /* Removed min-height and background to not interfere with child components */
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  box-shadow: 0 4px 20px rgba(15, 32, 39, 0.4);
+  color: #fff;
+}
+
+.logo {
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.95),
+    rgba(240, 245, 248, 0.9)
+  );
+  backdrop-filter: blur(10px);
+  padding: 15px 20px;
+  margin: 0 auto;
+  border-radius: 12px;
+  border: 1px solid rgba(44, 83, 100, 0.3);
+  box-shadow: 0 8px 32px rgba(15, 32, 39, 0.4), 0 4px 16px rgba(32, 58, 67, 0.3),
+    0 0 20px rgba(66, 165, 245, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.98),
+    rgba(245, 250, 253, 0.95)
+  );
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(15, 32, 39, 0.5),
+    0 6px 20px rgba(32, 58, 67, 0.4), 0 0 30px rgba(33, 150, 243, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.description {
+  font-size: 1.2em;
+  margin: 0 auto;
+  text-align: center;
+  width: 75%;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    margin-bottom: 2rem;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .rubikDirtRegular {
+    margin-bottom: 10px;
+  }
+
+  .description {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    width: 95%;
+    margin-top: 15px;
+    margin-bottom: -15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 0;
+  }
+  .rubikDirtRegular {
+    font-size: 3rem;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .rubikDirtRegular {
+    font-size: 2rem;
+  }
+}

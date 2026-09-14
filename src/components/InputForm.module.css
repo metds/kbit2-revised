@@ -1,0 +1,88 @@
+.content {
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  box-shadow: 0 4px 20px rgba(15, 32, 39, 0.4);
+  color: #fff;
+  width: 25%;
+  text-align: center;
+  height: 100%;
+  margin-left: 25px;
+  padding-bottom: 35px;
+}
+
+.sidePanelTitle {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.construct {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.label {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.input {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+  margin-right: 25px;
+  text-align: center;
+}
+
+@media (max-width: 1400px) {
+  .label {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 1275px) {
+  .sidePanelTitle {
+    font-size: 1.1rem;
+    padding-top: 5px;
+  }
+  .construct {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex-direction: column;
+    align-items: flex-end; /* Optional: keeps items aligned to the right */
+  }
+
+  .label {
+    padding-bottom: 5px;
+  }
+
+  @media (max-height: 640px) {
+    .label {
+      padding-bottom: 0px;
+    }
+    .sidePanelTitle {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .sidePanelTitle {
+    padding-top: 20px;
+  }
+  .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+  .label {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .input {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
