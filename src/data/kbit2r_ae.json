@@ -1,0 +1,141 @@
+[
+  {
+    "age_equivalent": "<4:0",
+    "verbal_knowledge": "0-8",
+    "riddles": "0-9",
+    "matrices": "0-9"
+  },
+  {
+    "age_equivalent": "4:0",
+    "verbal_knowledge": "9",
+    "riddles": "10",
+    "matrices": "10"
+  },
+  { "age_equivalent": "4:2", "verbal_knowledge": "10", "matrices": "11" },
+  {
+    "age_equivalent": "4:4",
+    "verbal_knowledge": "11",
+    "riddles": "11",
+    "matrices": "12"
+  },
+  { "age_equivalent": "4:6", "verbal_knowledge": "12" },
+  {
+    "age_equivalent": "4:8",
+    "verbal_knowledge": "13-14",
+    "riddles": "12",
+    "matrices": "13"
+  },
+  { "age_equivalent": "4:10", "verbal_knowledge": "15", "matrices": "14" },
+  { "age_equivalent": "5:2", "verbal_knowledge": "16", "riddles": "13" },
+  {
+    "age_equivalent": "5:6",
+    "verbal_knowledge": "17",
+    "riddles": "14",
+    "matrices": "15"
+  },
+  {
+    "age_equivalent": "5:10",
+    "verbal_knowledge": "18",
+    "riddles": "15",
+    "matrices": "16"
+  },
+  {
+    "age_equivalent": "6:2",
+    "verbal_knowledge": "19",
+    "riddles": "16",
+    "matrices": "17-18"
+  },
+  { "age_equivalent": "6:6", "verbal_knowledge": "20", "matrices": "19" },
+  {
+    "age_equivalent": "6:10",
+    "verbal_knowledge": "21",
+    "riddles": "17",
+    "matrices": "20"
+  },
+  { "age_equivalent": "7:2", "verbal_knowledge": "22", "matrices": "21" },
+  {
+    "age_equivalent": "7:6",
+    "verbal_knowledge": "23-24",
+    "riddles": "18",
+    "matrices": "22"
+  },
+  {
+    "age_equivalent": "7:10",
+    "verbal_knowledge": "25",
+    "riddles": "19",
+    "matrices": "23"
+  },
+  {
+    "age_equivalent": "8:2",
+    "verbal_knowledge": "26",
+    "riddles": "20",
+    "matrices": "24"
+  },
+  {
+    "age_equivalent": "8:6",
+    "verbal_knowledge": "27",
+    "riddles": "21",
+    "matrices": "25"
+  },
+  {
+    "age_equivalent": "8:10",
+    "verbal_knowledge": "28",
+    "riddles": "22",
+    "matrices": "26"
+  },
+  { "age_equivalent": "9:2", "verbal_knowledge": "29", "matrices": "27" },
+  {
+    "age_equivalent": "9:6",
+    "verbal_knowledge": "30",
+    "riddles": "23",
+    "matrices": "28"
+  },
+  { "age_equivalent": "9:10", "verbal_knowledge": "31", "riddles": "24" },
+  {
+    "age_equivalent": "10:2",
+    "verbal_knowledge": "32",
+    "riddles": "25",
+    "matrices": "29"
+  },
+  { "age_equivalent": "10:6", "verbal_knowledge": "33-34", "riddles": "26" },
+  {
+    "age_equivalent": "10:10",
+    "verbal_knowledge": "35",
+    "riddles": "27",
+    "matrices": "30"
+  },
+  { "age_equivalent": "11:2", "verbal_knowledge": "36", "riddles": "28" },
+  { "age_equivalent": "11:6", "verbal_knowledge": "37", "matrices": "31" },
+  {
+    "age_equivalent": "11:10",
+    "verbal_knowledge": "38",
+    "riddles": "29",
+    "matrices": "32"
+  },
+  { "age_equivalent": "12:3", "verbal_knowledge": "39" },
+  {
+    "age_equivalent": "12:9",
+    "verbal_knowledge": "40",
+    "riddles": "30",
+    "matrices": "33"
+  },
+  { "age_equivalent": "13:3", "verbal_knowledge": "41", "riddles": "31" },
+  {
+    "age_equivalent": "13:9",
+    "verbal_knowledge": "42",
+    "riddles": "32",
+    "matrices": "34"
+  },
+  { "age_equivalent": "14:3", "verbal_knowledge": "3", "riddles": "33" },
+  { "age_equivalent": "14:9", "verbal_knowledge": "44", "matrices": "35" },
+  { "age_equivalent": "15:3", "verbal_knowledge": "45" },
+  { "age_equivalent": "15:9", "riddles": "34" },
+  { "age_equivalent": "16:6", "verbal_knowledge": "46", "matrices": "36" },
+  { "age_equivalent": "17:6", "verbal_knowledge": "47", "riddles": "35" },
+  {
+    "age_equivalent": "18:6",
+    "verbal_knowledge": "48-60",
+    "riddles": "36-45",
+    "matrices": "37-50"
+  }
+]

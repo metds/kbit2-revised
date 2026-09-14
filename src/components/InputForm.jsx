@@ -1,25 +1,15 @@
-import { useEffect, useState } from "react";
 import classes from "./InputForm.module.css";
 
 function InputForm({
   age,
   setAge,
-  verbalTotal,
-  setVerbalTotal,
+  verbalKnowledge,
+  setVerbalKnowledge,
+  verbalRiddles,
+  setVerbalRiddles,
   nonverbalRaw,
   setNonverbalRaw,
 }) {
-  const [verbalRaw, setVerbalRaw] = useState("");
-  const [verbalRiddles, setVerbalRiddles] = useState("");
-
-  useEffect(() => {
-    if ((verbalRaw !== "") | (verbalRiddles !== "")) {
-      setVerbalTotal(Number(verbalRaw) + Number(verbalRiddles));
-    } else {
-      setVerbalTotal("");
-    }
-  }, [verbalRaw, verbalRiddles, setVerbalTotal]);
-
   const createRangeValidator = (setter, min, max, defaultValue = "") => {
     return (e) => {
       const value = Number(e.target.value);
@@ -37,58 +27,90 @@ function InputForm({
       <h3 className={classes.sidePanelTitle}>
         Kaufman Brief Intelligence Test
       </h3>
-      <div className={classes.construct}>
-        <label className={classes.label}>Age of the Participant</label>
-        <input
-          type="number"
-          min={18}
-          max={66}
-          required
-          onChange={createRangeValidator(setAge, 18, 66)}
-          className={classes.input}
-        />
-      </div>
-      <div className={classes.construct}>
-        <label className={classes.label}>Verbal Knowledge Raw Score</label>
-        <input
-          type="number"
-          required
-          min={0}
-          max={108 - Number(verbalRiddles)}
-          onChange={createRangeValidator(
-            setVerbalRaw,
-            0,
-            () => 108 - Number(verbalRiddles),
-          )}
-          className={classes.input}
-        />
-      </div>
-      <div className={classes.construct}>
-        <label className={classes.label}>Riddles Raw Score</label>
-        <input
-          type="number"
-          required
-          min={0}
-          max={108 - Number(verbalRaw)}
-          onChange={createRangeValidator(
-            setVerbalRiddles,
-            0,
-            () => 108 - Number(verbalRaw),
-          )}
-          className={classes.input}
-        />
-      </div>
-      <div className={classes.construct}>
-        <label className={classes.label}>Nonverbal Raw Score</label>
-        <input
-          type="number"
-          required
-          min={0}
-          max={46}
-          onChange={createRangeValidator(setNonverbalRaw, 0, 46)}
-          className={classes.input}
-        />
-      </div>
+
+      <fieldset className={classes.formGroup}>
+        <legend className={classes.formGroupTitle}>Participant</legend>
+        <div className={classes.construct}>
+          <label className={classes.label} htmlFor="kbit-age">
+            Age of the Participant
+          </label>
+          <input
+            id="kbit-age"
+            type="number"
+            min={18}
+            max={25}
+            required
+            value={age}
+            onChange={createRangeValidator(setAge, 18, 25)}
+            className={classes.input}
+          />
+        </div>
+      </fieldset>
+
+      <fieldset className={classes.formGroup}>
+        <legend className={classes.formGroupTitle}>Verbal Subtests</legend>
+        <div className={classes.construct}>
+          <label className={classes.label} htmlFor="kbit-verbal-knowledge">
+            Knowledge Raw Score
+          </label>
+          <input
+            id="kbit-verbal-knowledge"
+            type="number"
+            required
+            min={0}
+            max={108 - Number(verbalRiddles)}
+            value={verbalKnowledge}
+            onChange={createRangeValidator(
+              setVerbalKnowledge,
+              0,
+              () => 108 - Number(verbalRiddles),
+            )}
+            className={classes.input}
+          />
+        </div>
+        <div className={classes.construct}>
+          <label className={classes.label} htmlFor="kbit-riddles">
+            Riddles Raw Score
+          </label>
+          <input
+            id="kbit-riddles"
+            type="number"
+            required
+            min={0}
+            max={108 - Number(verbalKnowledge)}
+            value={verbalRiddles}
+            onChange={createRangeValidator(
+              setVerbalRiddles,
+              0,
+              () => 108 - Number(verbalKnowledge),
+            )}
+            className={classes.input}
+          />
+        </div>
+        <div className={classes.groupTotal}>
+          Verbal Total: <b>{Number(verbalKnowledge) + Number(verbalRiddles)}</b>{" "}
+          / 108
+        </div>
+      </fieldset>
+
+      <fieldset className={classes.formGroup}>
+        <legend className={classes.formGroupTitle}>Nonverbal Subtest</legend>
+        <div className={classes.construct}>
+          <label className={classes.label} htmlFor="kbit-nonverbal">
+            Nonverbal Raw Score
+          </label>
+          <input
+            id="kbit-nonverbal"
+            type="number"
+            required
+            min={0}
+            max={46}
+            value={nonverbalRaw}
+            onChange={createRangeValidator(setNonverbalRaw, 0, 46)}
+            className={classes.input}
+          />
+        </div>
+      </fieldset>
     </div>
   );
 }

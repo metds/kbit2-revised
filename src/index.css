@@ -1,21 +1,32 @@
+:root {
+  --bg-gradient-start: rgba(32, 58, 67, 0.85);
+  --bg-gradient-end: rgba(44, 83, 100, 0.65);
+  --text-primary: #1a1a1a;
+  --border-color: rgba(0, 0, 0, 0.1);
+  --border-color-subtle: rgba(0, 0, 0, 0.06);
+  --card-bg: rgba(0, 0, 0, 0.03);
+  --font-sans:
+    "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  --font-mono:
+    "IBM Plex Mono", source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: var(--font-sans);
+  color: var(--text-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* Layered background with gradient overlay and logo */
-  background: 
-    /* Top gradient overlay for better contrast */ radial-gradient(
+  background: radial-gradient(
     circle at top,
-    rgba(241, 210, 70, 0.85),
-    rgba(250, 176, 103, 0.75)
+    var(--bg-gradient-start),
+    var(--bg-gradient-end)
   );
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: var(--font-mono);
 }

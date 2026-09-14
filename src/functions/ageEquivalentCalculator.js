@@ -1,35 +1,32 @@
-import kbit2ae from "../data/kbit2ae.json";
+import kbit2ae from "../data/kbit2r_ae.json" with { type: "json" };
+import { findMatchAE } from "../functions/utils.js";
 
-function ageEquivalentCalculator({ verbalTotal, nonverbalRaw }) {
-  function parseScoreRange(scoreString) {
-    if (scoreString.includes("-")) {
-      const [min, max] = scoreString.split("-").map(Number);
-      return { min, max };
-    } else {
-      const value = Number(scoreString);
-      return { min: value, max: value };
-    }
-  }
-
-  function findMatchAE(searchScore, scoreString) {
-    const { min, max } = parseScoreRange(scoreString);
-    const matches = searchScore >= min && searchScore <= max;
-    return matches;
-  }
-
-  const verbalAE = kbit2ae.find((item) => {
-    const verbalMatch = findMatchAE(verbalTotal, item.verbal_raw_score);
+function ageEquivalentCalculator({ verbal_knowledge, riddles, matrices }) {
+  const verbalKnowledge = kbit2ae.find((item) => {
+    const verbalMatch = findMatchAE(verbal_knowledge, item.verbal_knowledge);
     return verbalMatch;
   });
 
-  const nonverbalAE = kbit2ae.find((item) => {
-    const nonverbalMatch = findMatchAE(nonverbalRaw, item.nonverbal_raw_score);
+  const verbalRiddles = kbit2ae.find((item) => {
+    const verbalMatch = findMatchAE(riddles, item.riddles);
+    return verbalMatch;
+  });
+
+  const nonverbalMatrices = kbit2ae.find((item) => {
+    const nonverbalMatch = findMatchAE(matrices, item.matrices);
     return nonverbalMatch;
   });
 
   return {
-    verbalAgeEquivalent: verbalAE ? verbalAE.age_equivalent : null,
-    nonverbalAgeEquivalent: nonverbalAE ? nonverbalAE.age_equivalent : null,
+    verbalKnowledgeAgeEquivalent: verbalKnowledge
+      ? verbalKnowledge.age_equivalent
+      : null,
+    verbalRiddlesAgeEquivalent: verbalRiddles
+      ? verbalRiddles.age_equivalent
+      : null,
+    nonverbalMatricesAgeEquivalent: nonverbalMatrices
+      ? nonverbalMatrices.age_equivalent
+      : null,
   };
 }
 

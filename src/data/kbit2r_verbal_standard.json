@@ -1,0 +1,1186 @@
+[
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 2,
+    "standard_score": 50,
+    "confidence_interval": "47-58",
+    "percentile_rank": "< 0.1"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 3,
+    "standard_score": 53,
+    "confidence_interval": "50-61",
+    "percentile_rank": "0.1"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 4,
+    "standard_score": 57,
+    "confidence_interval": "54-64",
+    "percentile_rank": "0.2"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 5,
+    "standard_score": 60,
+    "confidence_interval": "57-67",
+    "percentile_rank": "0.4"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 6,
+    "standard_score": 63,
+    "confidence_interval": "60-70",
+    "percentile_rank": "1"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 7,
+    "standard_score": 66,
+    "confidence_interval": "62-73",
+    "percentile_rank": "1"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 8,
+    "standard_score": 68,
+    "confidence_interval": "64-75",
+    "percentile_rank": "2"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 9,
+    "standard_score": 71,
+    "confidence_interval": "67-78",
+    "percentile_rank": "3"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 10,
+    "standard_score": 73,
+    "confidence_interval": "69-80",
+    "percentile_rank": "4"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 11,
+    "standard_score": 76,
+    "confidence_interval": "72-82",
+    "percentile_rank": "5"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 12,
+    "standard_score": 79,
+    "confidence_interval": "75-85",
+    "percentile_rank": "8"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 13,
+    "standard_score": 81,
+    "confidence_interval": "77-87",
+    "percentile_rank": "10"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 14,
+    "standard_score": 84,
+    "confidence_interval": "80-90",
+    "percentile_rank": "14"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 15,
+    "standard_score": 86,
+    "confidence_interval": "81-92",
+    "percentile_rank": "18"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 16,
+    "standard_score": 88,
+    "confidence_interval": "83-94",
+    "percentile_rank": "21"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 17,
+    "standard_score": 91,
+    "confidence_interval": "86-97",
+    "percentile_rank": "27"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 18,
+    "standard_score": 94,
+    "confidence_interval": "89-100",
+    "percentile_rank": "34"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 19,
+    "standard_score": 97,
+    "confidence_interval": "92-102",
+    "percentile_rank": "42"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 20,
+    "standard_score": 100,
+    "confidence_interval": "95-105",
+    "percentile_rank": "50"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 21,
+    "standard_score": 103,
+    "confidence_interval": "98-108",
+    "percentile_rank": "58"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 22,
+    "standard_score": 106,
+    "confidence_interval": "100-111",
+    "percentile_rank": "66"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 23,
+    "standard_score": 109,
+    "confidence_interval": "103-114",
+    "percentile_rank": "73"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 24,
+    "standard_score": 112,
+    "confidence_interval": "106-117",
+    "percentile_rank": "79"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 25,
+    "standard_score": 114,
+    "confidence_interval": "108-119",
+    "percentile_rank": "82"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 26,
+    "standard_score": 116,
+    "confidence_interval": "110-120",
+    "percentile_rank": "86"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 27,
+    "standard_score": 118,
+    "confidence_interval": "112-122",
+    "percentile_rank": "88"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 28,
+    "standard_score": 121,
+    "confidence_interval": "115-125",
+    "percentile_rank": "92"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 29,
+    "standard_score": 124,
+    "confidence_interval": "118-128",
+    "percentile_rank": "95"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 30,
+    "standard_score": 127,
+    "confidence_interval": "120-131",
+    "percentile_rank": "96"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 31,
+    "standard_score": 130,
+    "confidence_interval": "123-134",
+    "percentile_rank": "98"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 32,
+    "standard_score": 132,
+    "confidence_interval": "125-136",
+    "percentile_rank": "98"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 33,
+    "standard_score": 134,
+    "confidence_interval": "127-138",
+    "percentile_rank": "99"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 34,
+    "standard_score": 137,
+    "confidence_interval": "130-140",
+    "percentile_rank": "99"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 35,
+    "standard_score": 140,
+    "confidence_interval": "133-143",
+    "percentile_rank": "99.6"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 36,
+    "standard_score": 143,
+    "confidence_interval": "136-146",
+    "percentile_rank": "99.8"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 37,
+    "standard_score": 147,
+    "confidence_interval": "139-150",
+    "percentile_rank": "99.9"
+  },
+  {
+    "min_age": "18",
+    "max_age": "18",
+    "sum_of_scaled_score": 38,
+    "standard_score": 150,
+    "confidence_interval": "142-153",
+    "percentile_rank": "> 99.9"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 2,
+    "standard_score": 50,
+    "confidence_interval": "47-58",
+    "percentile_rank": "< 0.1"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 3,
+    "standard_score": 53,
+    "confidence_interval": "50-61",
+    "percentile_rank": "0.1"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 4,
+    "standard_score": 57,
+    "confidence_interval": "54-64",
+    "percentile_rank": "0.2"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 5,
+    "standard_score": 60,
+    "confidence_interval": "57-67",
+    "percentile_rank": "0.4"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 6,
+    "standard_score": 63,
+    "confidence_interval": "60-70",
+    "percentile_rank": "1"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 7,
+    "standard_score": 66,
+    "confidence_interval": "62-73",
+    "percentile_rank": "1"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 8,
+    "standard_score": 68,
+    "confidence_interval": "64-75",
+    "percentile_rank": "2"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 9,
+    "standard_score": 71,
+    "confidence_interval": "67-78",
+    "percentile_rank": "3"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 10,
+    "standard_score": 73,
+    "confidence_interval": "69-80",
+    "percentile_rank": "4"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 11,
+    "standard_score": 76,
+    "confidence_interval": "72-82",
+    "percentile_rank": "5"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 12,
+    "standard_score": 79,
+    "confidence_interval": "75-85",
+    "percentile_rank": "8"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 13,
+    "standard_score": 81,
+    "confidence_interval": "77-87",
+    "percentile_rank": "10"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 14,
+    "standard_score": 84,
+    "confidence_interval": "80-90",
+    "percentile_rank": "14"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 15,
+    "standard_score": 86,
+    "confidence_interval": "81-92",
+    "percentile_rank": "18"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 16,
+    "standard_score": 88,
+    "confidence_interval": "83-94",
+    "percentile_rank": "21"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 17,
+    "standard_score": 91,
+    "confidence_interval": "86-97",
+    "percentile_rank": "27"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 18,
+    "standard_score": 94,
+    "confidence_interval": "89-100",
+    "percentile_rank": "34"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 19,
+    "standard_score": 97,
+    "confidence_interval": "92-102",
+    "percentile_rank": "42"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 20,
+    "standard_score": 100,
+    "confidence_interval": "95-105",
+    "percentile_rank": "50"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 21,
+    "standard_score": 103,
+    "confidence_interval": "98-108",
+    "percentile_rank": "58"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 22,
+    "standard_score": 106,
+    "confidence_interval": "100-111",
+    "percentile_rank": "66"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 23,
+    "standard_score": 109,
+    "confidence_interval": "103-114",
+    "percentile_rank": "73"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 24,
+    "standard_score": 112,
+    "confidence_interval": "106-117",
+    "percentile_rank": "79"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 25,
+    "standard_score": 114,
+    "confidence_interval": "108-119",
+    "percentile_rank": "82"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 26,
+    "standard_score": 116,
+    "confidence_interval": "110-120",
+    "percentile_rank": "86"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 27,
+    "standard_score": 118,
+    "confidence_interval": "112-122",
+    "percentile_rank": "88"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 28,
+    "standard_score": 121,
+    "confidence_interval": "115-125",
+    "percentile_rank": "92"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 29,
+    "standard_score": 124,
+    "confidence_interval": "118-128",
+    "percentile_rank": "95"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 30,
+    "standard_score": 127,
+    "confidence_interval": "120-131",
+    "percentile_rank": "96"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 31,
+    "standard_score": 130,
+    "confidence_interval": "123-134",
+    "percentile_rank": "98"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 32,
+    "standard_score": 132,
+    "confidence_interval": "125-136",
+    "percentile_rank": "98"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 33,
+    "standard_score": 134,
+    "confidence_interval": "127-138",
+    "percentile_rank": "99"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 34,
+    "standard_score": 137,
+    "confidence_interval": "130-140",
+    "percentile_rank": "99"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 35,
+    "standard_score": 140,
+    "confidence_interval": "133-143",
+    "percentile_rank": "99.6"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 36,
+    "standard_score": 143,
+    "confidence_interval": "136-146",
+    "percentile_rank": "99.8"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 37,
+    "standard_score": 147,
+    "confidence_interval": "139-150",
+    "percentile_rank": "99.9"
+  },
+  {
+    "min_age": "19",
+    "max_age": "20",
+    "sum_of_scaled_score": 38,
+    "standard_score": 150,
+    "confidence_interval": "142-153",
+    "percentile_rank": "> 99.9"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 2,
+    "standard_score": 50,
+    "confidence_interval": "47-58",
+    "percentile_rank": "< 0.1"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 3,
+    "standard_score": 53,
+    "confidence_interval": "50-61",
+    "percentile_rank": "0.1"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 4,
+    "standard_score": 57,
+    "confidence_interval": "54-64",
+    "percentile_rank": "0.2"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 5,
+    "standard_score": 60,
+    "confidence_interval": "57-67",
+    "percentile_rank": "0.4"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 6,
+    "standard_score": 63,
+    "confidence_interval": "60-70",
+    "percentile_rank": "1"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 7,
+    "standard_score": 66,
+    "confidence_interval": "62-73",
+    "percentile_rank": "1"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 8,
+    "standard_score": 68,
+    "confidence_interval": "64-75",
+    "percentile_rank": "2"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 9,
+    "standard_score": 71,
+    "confidence_interval": "67-78",
+    "percentile_rank": "3"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 10,
+    "standard_score": 73,
+    "confidence_interval": "69-80",
+    "percentile_rank": "4"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 11,
+    "standard_score": 76,
+    "confidence_interval": "72-82",
+    "percentile_rank": "5"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 12,
+    "standard_score": 79,
+    "confidence_interval": "75-85",
+    "percentile_rank": "8"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 13,
+    "standard_score": 81,
+    "confidence_interval": "77-87",
+    "percentile_rank": "10"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 14,
+    "standard_score": 84,
+    "confidence_interval": "80-90",
+    "percentile_rank": "14"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 15,
+    "standard_score": 86,
+    "confidence_interval": "81-92",
+    "percentile_rank": "18"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 16,
+    "standard_score": 88,
+    "confidence_interval": "83-94",
+    "percentile_rank": "21"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 17,
+    "standard_score": 91,
+    "confidence_interval": "86-97",
+    "percentile_rank": "27"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 18,
+    "standard_score": 94,
+    "confidence_interval": "89-100",
+    "percentile_rank": "34"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 19,
+    "standard_score": 97,
+    "confidence_interval": "92-102",
+    "percentile_rank": "42"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 20,
+    "standard_score": 100,
+    "confidence_interval": "95-105",
+    "percentile_rank": "50"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 21,
+    "standard_score": 103,
+    "confidence_interval": "98-108",
+    "percentile_rank": "58"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 22,
+    "standard_score": 106,
+    "confidence_interval": "100-111",
+    "percentile_rank": "66"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 23,
+    "standard_score": 109,
+    "confidence_interval": "103-114",
+    "percentile_rank": "73"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 24,
+    "standard_score": 112,
+    "confidence_interval": "106-117",
+    "percentile_rank": "79"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 25,
+    "standard_score": 114,
+    "confidence_interval": "108-119",
+    "percentile_rank": "82"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 26,
+    "standard_score": 116,
+    "confidence_interval": "110-120",
+    "percentile_rank": "86"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 27,
+    "standard_score": 118,
+    "confidence_interval": "112-122",
+    "percentile_rank": "88"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 28,
+    "standard_score": 121,
+    "confidence_interval": "115-125",
+    "percentile_rank": "92"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 29,
+    "standard_score": 124,
+    "confidence_interval": "118-128",
+    "percentile_rank": "95"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 30,
+    "standard_score": 127,
+    "confidence_interval": "120-131",
+    "percentile_rank": "96"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 31,
+    "standard_score": 130,
+    "confidence_interval": "123-134",
+    "percentile_rank": "98"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 32,
+    "standard_score": 132,
+    "confidence_interval": "125-136",
+    "percentile_rank": "98"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 33,
+    "standard_score": 134,
+    "confidence_interval": "127-138",
+    "percentile_rank": "99"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 34,
+    "standard_score": 137,
+    "confidence_interval": "130-140",
+    "percentile_rank": "99"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 35,
+    "standard_score": 140,
+    "confidence_interval": "133-143",
+    "percentile_rank": "99.6"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 36,
+    "standard_score": 143,
+    "confidence_interval": "136-146",
+    "percentile_rank": "99.8"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 37,
+    "standard_score": 147,
+    "confidence_interval": "139-150",
+    "percentile_rank": "99.9"
+  },
+  {
+    "min_age": "21",
+    "max_age": "22",
+    "sum_of_scaled_score": 38,
+    "standard_score": 150,
+    "confidence_interval": "142-153",
+    "percentile_rank": "> 99.9"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 2,
+    "standard_score": 50,
+    "confidence_interval": "47-58",
+    "percentile_rank": "< 0.1"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 3,
+    "standard_score": 53,
+    "confidence_interval": "50-61",
+    "percentile_rank": "0.1"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 4,
+    "standard_score": 57,
+    "confidence_interval": "54-64",
+    "percentile_rank": "0.2"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 5,
+    "standard_score": 60,
+    "confidence_interval": "57-67",
+    "percentile_rank": "0.4"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 6,
+    "standard_score": 63,
+    "confidence_interval": "60-70",
+    "percentile_rank": "1"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 7,
+    "standard_score": 66,
+    "confidence_interval": "62-73",
+    "percentile_rank": "1"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 8,
+    "standard_score": 68,
+    "confidence_interval": "64-75",
+    "percentile_rank": "2"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 9,
+    "standard_score": 71,
+    "confidence_interval": "67-78",
+    "percentile_rank": "3"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 10,
+    "standard_score": 73,
+    "confidence_interval": "69-80",
+    "percentile_rank": "4"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 11,
+    "standard_score": 76,
+    "confidence_interval": "72-82",
+    "percentile_rank": "5"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 12,
+    "standard_score": 79,
+    "confidence_interval": "75-85",
+    "percentile_rank": "8"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 13,
+    "standard_score": 81,
+    "confidence_interval": "77-87",
+    "percentile_rank": "10"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 14,
+    "standard_score": 84,
+    "confidence_interval": "80-90",
+    "percentile_rank": "14"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 15,
+    "standard_score": 86,
+    "confidence_interval": "81-92",
+    "percentile_rank": "18"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 16,
+    "standard_score": 88,
+    "confidence_interval": "83-94",
+    "percentile_rank": "21"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 17,
+    "standard_score": 91,
+    "confidence_interval": "86-97",
+    "percentile_rank": "27"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 18,
+    "standard_score": 94,
+    "confidence_interval": "89-100",
+    "percentile_rank": "34"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 19,
+    "standard_score": 97,
+    "confidence_interval": "92-102",
+    "percentile_rank": "42"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 20,
+    "standard_score": 100,
+    "confidence_interval": "95-105",
+    "percentile_rank": "50"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 21,
+    "standard_score": 103,
+    "confidence_interval": "98-108",
+    "percentile_rank": "58"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 22,
+    "standard_score": 106,
+    "confidence_interval": "100-111",
+    "percentile_rank": "66"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 23,
+    "standard_score": 109,
+    "confidence_interval": "103-114",
+    "percentile_rank": "73"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 24,
+    "standard_score": 112,
+    "confidence_interval": "106-117",
+    "percentile_rank": "79"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 25,
+    "standard_score": 114,
+    "confidence_interval": "108-119",
+    "percentile_rank": "82"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 26,
+    "standard_score": 116,
+    "confidence_interval": "110-120",
+    "percentile_rank": "86"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 27,
+    "standard_score": 118,
+    "confidence_interval": "112-122",
+    "percentile_rank": "88"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 28,
+    "standard_score": 121,
+    "confidence_interval": "115-125",
+    "percentile_rank": "92"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 29,
+    "standard_score": 124,
+    "confidence_interval": "118-128",
+    "percentile_rank": "95"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 30,
+    "standard_score": 127,
+    "confidence_interval": "120-131",
+    "percentile_rank": "96"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 31,
+    "standard_score": 130,
+    "confidence_interval": "123-134",
+    "percentile_rank": "98"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 32,
+    "standard_score": 132,
+    "confidence_interval": "125-136",
+    "percentile_rank": "98"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 33,
+    "standard_score": 134,
+    "confidence_interval": "127-138",
+    "percentile_rank": "99"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 34,
+    "standard_score": 137,
+    "confidence_interval": "130-140",
+    "percentile_rank": "99"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 35,
+    "standard_score": 140,
+    "confidence_interval": "133-143",
+    "percentile_rank": "99.6"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 36,
+    "standard_score": 143,
+    "confidence_interval": "136-146",
+    "percentile_rank": "99.8"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 37,
+    "standard_score": 147,
+    "confidence_interval": "139-150",
+    "percentile_rank": "99.9"
+  },
+  {
+    "min_age": "23",
+    "max_age": "25",
+    "sum_of_scaled_score": 38,
+    "standard_score": 150,
+    "confidence_interval": "142-153",
+    "percentile_rank": "> 99.9"
+  }
+]

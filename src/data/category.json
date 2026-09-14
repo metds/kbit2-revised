@@ -1,0 +1,16 @@
+[
+  {
+    "range_of_standard_score": "> 131",
+    "descriptive_category": "Upper extreme"
+  },
+  {
+    "range_of_standard_score": "116-130",
+    "descriptive_category": "Above average"
+  },
+  { "range_of_standard_score": "85-115", "descriptive_category": "Average" },
+  {
+    "range_of_standard_score": "70-84",
+    "descriptive_category": "Below average"
+  },
+  { "range_of_standard_score": "< 69", "descriptive_category": "Lower extreme" }
+]

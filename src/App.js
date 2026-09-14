@@ -6,9 +6,11 @@ import InputForm from "./components/InputForm";
 import ResultsOutput from "./components/ResultsOutput";
 
 function App() {
-  const [age, setAge] = useState("");
-  const [verbalTotal, setVerbalTotal] = useState("");
-  const [nonverbalRaw, setNonverbalRaw] = useState("");
+  const [age, setAge] = useState("18");
+  const [verbalKnowledge, setVerbalKnowledge] = useState("25");
+  const [verbalRiddles, setVerbalRiddles] = useState("23");
+  const [nonverbalRaw, setNonverbalRaw] = useState("32");
+
   return (
     <div>
       <Header />
@@ -16,15 +18,18 @@ function App() {
         <InputForm
           age={age}
           setAge={setAge}
-          verbalTotal={verbalTotal}
-          setVerbalTotal={setVerbalTotal}
+          verbalKnowledge={verbalKnowledge}
+          setVerbalKnowledge={setVerbalKnowledge}
+          verbalRiddles={verbalRiddles}
+          setVerbalRiddles={setVerbalRiddles}
           nonverbalRaw={nonverbalRaw}
           setNonverbalRaw={setNonverbalRaw}
         />
         <ResultsOutput
           age={age}
           nonverbalRaw={nonverbalRaw}
-          verbalTotal={verbalTotal}
+          verbalKnowledge={verbalKnowledge}
+          verbalRiddles={verbalRiddles}
         />
       </div>
     </div>
