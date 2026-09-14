@@ -20,11 +20,7 @@ function Header() {
       <header className={classes.header}>
         <div className={classes.logoContainer}>
           <a href="https://www.nia.nih.gov/research/abc-ds">
-            <img
-              className={classes.logo}
-              src="kbit2-revised/logo-cdp-ds.svg"
-              alt="logo"
-            />
+            <img className={classes.logo} src="logo-cdp-ds.svg" alt="logo" />
           </a>
         </div>
         <h1 className={classes.pageTitle}>KBIT-2 Calculator</h1>
