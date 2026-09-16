@@ -23,13 +23,14 @@ function Header() {
             <img className={classes.logo} src="logo-cdp-ds.svg" alt="logo" />
           </a>
         </div>
-        <h1 className={classes.pageTitle}>KBIT-2 Calculator</h1>
+        <h1 className={classes.pageTitle}>KBIT-2 Revised Calculator</h1>
         <div className={classes.content}>
           {!isSmallScreen && (
             <p className={classes.description}>
-              The Kaufman Brief Intelligence Test Second Edition (KBIT-2) is a
-              brief measure of verbal and nonverbal intelligence used in the
-              Alzheimer's Biomarker Consortium - Down Syndrome study.{" "}
+              The Kaufman Brief Intelligence Test Second Edition (KBIT-2)
+              Revised is a brief measure of verbal and nonverbal intelligence
+              used in the Alzheimer's Biomarker Consortium - Down Syndrome
+              study.{" "}
             </p>
           )}
         </div>
