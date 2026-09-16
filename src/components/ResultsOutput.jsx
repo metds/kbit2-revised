@@ -106,8 +106,40 @@ function ResultsOutput({ age, verbalKnowledge, verbalRiddles, nonverbalRaw }) {
           <p className={classes.summaryText}>
             The KBIT-2 Results for a {age} year old with a verbal score of{" "}
             <b>{verbalTotalRaw}</b> and a nonverbal score of{" "}
-            <b>{nonverbalRaw}</b>
+            <b>{nonverbalRaw}</b>.
           </p>
+          {(verbalKnowledgeScaled || verbalRiddlesScaled) && (
+            <section className={classes.resultGroup}>
+              <h3 className={classes.resultGroupTitle}>Scaled Scores</h3>
+              <div className={classes.scoreGrid}>
+                {verbalKnowledgeScaled && (
+                  <div className={classes.scoreCard}>
+                    <span className={classes.scoreLabel}>Knowledge</span>
+                    <span className={classes.scoreValue}>
+                      {verbalKnowledgeScaled}
+                    </span>
+                  </div>
+                )}
+                {verbalRiddlesScaled && (
+                  <div className={classes.scoreCard}>
+                    <span className={classes.scoreLabel}>Riddles</span>
+                    <span className={classes.scoreValue}>
+                      {verbalRiddlesScaled}
+                    </span>
+                  </div>
+                )}
+
+                {totalScaledScore && (
+                  <div className={classes.scoreCard}>
+                    <span className={classes.scoreLabel}>Total</span>
+                    <span className={classes.scoreValue}>
+                      {totalScaledScore}
+                    </span>
+                  </div>
+                )}
+              </div>
+            </section>
+          )}
 
           {(verbalStandard || nonverbalStandard || IQ) && (
             <section className={classes.resultGroup}>
@@ -122,6 +154,12 @@ function ResultsOutput({ age, verbalKnowledge, verbalRiddles, nonverbalRaw }) {
                     <span className={classes.scoreCI}>
                       90% CI: {verbalStandard.standardScoreCI}
                     </span>
+                    <span className={classes.scoreCI}>
+                      Percentile Rank: {verbalStandard.percentileRank}
+                    </span>
+                    <span className={classes.scoreCI}>
+                      Category: {verbalStandard.descriptiveCategory}
+                    </span>
                   </div>
                 )}
                 {nonverbalStandard && (
@@ -132,6 +170,12 @@ function ResultsOutput({ age, verbalKnowledge, verbalRiddles, nonverbalRaw }) {
                     </span>
                     <span className={classes.scoreCI}>
                       90% CI: {nonverbalStandard.standardScoreCI}
+                    </span>
+                    <span className={classes.scoreCI}>
+                      Percentile Rank: {nonverbalStandard.percentileRank}
+                    </span>
+                    <span className={classes.scoreCI}>
+                      Category: {nonverbalStandard.descriptiveCategory}
                     </span>
                   </div>
                 )}
@@ -145,6 +189,12 @@ function ResultsOutput({ age, verbalKnowledge, verbalRiddles, nonverbalRaw }) {
                     </span>
                     <span className={classes.scoreCI}>
                       90% CI: {IQ.standardScoreCI}
+                    </span>
+                    <span className={classes.scoreCI}>
+                      Percentile Rank: {IQ.standardScorePercentileRank}
+                    </span>
+                    <span className={classes.scoreCI}>
+                      Category: {IQ.descriptiveCategory}
                     </span>
                   </div>
                 )}

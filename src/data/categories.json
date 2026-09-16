@@ -1,0 +1,27 @@
+[
+  {
+    "min_score": 1,
+    "max_score": 69,
+    "label": "Lower extreme"
+  },
+  {
+    "min_score": 70,
+    "max_score": 84,
+    "label": "Below average"
+  },
+  {
+    "min_score": 85,
+    "max_score": 115,
+    "label": "Average"
+  },
+  {
+    "min_score": 116,
+    "max_score": 130,
+    "label": "Above average"
+  },
+  {
+    "min_score": 131,
+    "max_score": 160,
+    "label": "Upper extreme"
+  }
+]

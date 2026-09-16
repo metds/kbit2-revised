@@ -1,3 +1,5 @@
+import categories from "../data/categories.json" with { type: "json" };
+
 export function parseScoreRange(scoreString) {
   if (scoreString == null) {
     return null;
@@ -21,4 +23,11 @@ export function findMatchAE(searchScore, scoreString) {
   const { min, max } = range;
 
   return searchScore >= min && searchScore <= max;
+}
+
+export function findCategory(score) {
+  const categroy = categories.find(
+    (item) => score >= item.min_score && score <= item.max_score,
+  );
+  return categroy.label;
 }

@@ -59,12 +59,8 @@ function InputForm({
             type="number"
             required
             min={0}
-            max={105 - Number(verbalRiddles)}
-            onChange={createRangeValidator(
-              setVerbalKnowledge,
-              0,
-              () => 105 - Number(verbalRiddles),
-            )}
+            max={60}
+            onChange={createRangeValidator(setVerbalKnowledge, 0, 60)}
             className={classes.input}
           />
         </div>
@@ -77,12 +73,8 @@ function InputForm({
             type="number"
             required
             min={0}
-            max={105 - Number(verbalKnowledge)}
-            onChange={createRangeValidator(
-              setVerbalRiddles,
-              0,
-              () => 105 - Number(verbalKnowledge),
-            )}
+            max={45}
+            onChange={createRangeValidator(setVerbalRiddles, 0, 45)}
             className={classes.input}
           />
         </div>

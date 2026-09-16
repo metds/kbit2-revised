@@ -1,6 +1,6 @@
 import kbit2verbal from "../data/kbit2r_verbal_standard.json" with { type: "json" };
 import kbit2nonverbal from "../data/kbit2r_nonverbal_standard.json" with { type: "json" };
-import { parseScoreRange } from "../functions/utils.js";
+import { parseScoreRange, findCategory } from "../functions/utils.js";
 
 function standardScoreCalculator({ age, score, testType }) {
   if (testType === "verbal") {
@@ -15,6 +15,8 @@ function standardScoreCalculator({ age, score, testType }) {
       return {
         standardScore: verbstd.standard_score,
         standardScoreCI: verbstd.confidence_interval,
+        percentileRank: verbstd.percentile_rank,
+        descriptiveCategory: findCategory(verbstd.standard_score),
       };
     }
   }
@@ -30,6 +32,8 @@ function standardScoreCalculator({ age, score, testType }) {
       return {
         standardScore: nonvbstd.standard_score,
         standardScoreCI: nonvbstd.confidence_interval,
+        percentileRank: nonvbstd.percentile_rank,
+        descriptiveCategory: findCategory(nonvbstd.standard_score),
       };
     }
   }

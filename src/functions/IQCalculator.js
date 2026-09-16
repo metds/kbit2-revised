@@ -1,5 +1,5 @@
 import kbit2iq from "../data/kbit2r_iq.json" with { type: "json" };
-import { parseScoreRange } from "../functions/utils.js";
+import { parseScoreRange, findCategory } from "../functions/utils.js";
 
 function IQCalculator({ totalStandardScore }) {
   const IQ = kbit2iq.find((item) => {
@@ -11,6 +11,8 @@ function IQCalculator({ totalStandardScore }) {
     return {
       standardScore: IQ.standard_score,
       standardScoreCI: IQ.confidence_interval,
+      standardScorePercentileRank: IQ.percentile_rank,
+      descriptiveCategory: findCategory(IQ.standard_score),
     };
   }
 }
